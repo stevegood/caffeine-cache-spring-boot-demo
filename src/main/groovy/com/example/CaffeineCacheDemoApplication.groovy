@@ -23,8 +23,7 @@ class CaffeineCacheDemoApplication {
 
 	@RequestMapping
 	def index(Model model) {
-		Map attrs = [start: timeService.timeNow, cached: timeService.cachedTime]
-		model.addAllAttributes attrs
+		model.addAllAttributes now: timeService.timeNow, cached: timeService.cachedTime
 		'index'
 	}
 
