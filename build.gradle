@@ -27,7 +27,7 @@ repositories {
 
 
 dependencies {
-	compile 'com.github.ben-manes.caffeine:caffeine:2.3.5'
+	compile 'com.github.ben-manes.caffeine:caffeine'
 	compile('org.springframework.boot:spring-boot-starter-cache')
 	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	compile('org.springframework.boot:spring-boot-starter-web')
