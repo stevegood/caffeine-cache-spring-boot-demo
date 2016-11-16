@@ -2,4 +2,4 @@ spring:
   cache:
     cache-names: timeCached
     caffeine:
-      spec: maximumSize=500,expireAfterAccess=30s
+      spec: expireAfterWrite=30s

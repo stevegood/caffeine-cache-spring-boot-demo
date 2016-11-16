@@ -14,9 +14,7 @@ class TimeService {
     }
 
     @Cacheable('timeCached')
-    long getCachedTime() {
+    long getTimeCached() {
         timeNow
     }
-
-
 }
